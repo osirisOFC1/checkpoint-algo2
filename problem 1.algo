@@ -1,0 +1,27 @@
+ALGORITHM problem1
+VAR
+    SENT : STRING;
+    set1,set2: INTEGER;
+BEGIN
+
+    write("this is the sum");
+    read (SENT);
+
+    for (i=0; i<SENT.length-1;i = i+1) {
+    If (SENT[i] = character) THEN {
+    set1 = set1 + 1;
+    } ELSE set1 = set1;
+    END_IF
+    }
+
+    for (i=0; i<SENT.length-1;i = i+1) {
+    IF (SENT[i] = " ") THEN
+         set2 = set2 + 1
+    ELSE
+        set2 = set2;
+    END_IF
+    }
+
+    write ("sum of set1"; set1);
+    write ("sum of set2" ; set2 + 1);
+
